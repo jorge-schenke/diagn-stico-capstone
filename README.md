@@ -1,2 +1,2 @@
 # diagn-stico-capstone
-Diagnóstico uso de gitflow capstone
+Las funciones de este programa deben correrse con el archivo "farmers-protest-tweets-2021-03-5.json" en la misma carpeta.
