@@ -1,6 +1,6 @@
 import json
 
-def most_retweeted(url):
+def most_tweets(url):
     top = []
     with open(url, "r", encoding='utf-8') as file:
         data = file.readlines()

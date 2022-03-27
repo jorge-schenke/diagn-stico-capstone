@@ -1,7 +1,6 @@
 import json
-from datetime import datetime
 
-def all_days(url):
+def most_tweets_day(url):
     with open(url, "r", encoding='utf-8') as file:
         data = file.readlines()
         i = 3
