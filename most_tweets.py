@@ -1,8 +1,4 @@
 import json
-with open("farmers-protest-tweets-2021-03-5.json", "r") as file:
-    data = file.readlines()
-    print(type(json.loads(data[0])))
-    print(json.loads(data[0])["url"])
 
 def most_retweeted(url):
     top = []
@@ -23,5 +19,3 @@ def most_retweeted(url):
                             top.insert(index, {"user": line_json["user"]["username"].encode("utf-8"), "statusesCount": line_json["user"]["statusesCount"]})
                             puesto = True
         return(top)
-
-print(most_retweeted("farmers-protest-tweets-2021-03-5.json"))
